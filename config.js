@@ -12,7 +12,15 @@ window.SPLIT_CONFIG = {
 
   // Paste your Firebase web config here (see README, step 1).
   // While this is null the app works in LOCAL-ONLY mode (no syncing between phones).
-  firebase: null,
+  firebase: firebase: {
+    apiKey: "AIzaSyCAZu0vewUdwBjvxoi-EPKLyiVsRnCyBXQ",
+  authDomain: "ys-home-590d6.firebaseapp.com",
+  projectId: "ys-home-590d6",
+  storageBucket: "ys-home-590d6.firebasestorage.app",
+  messagingSenderId: "1031055673392",
+  appId: "1:1031055673392:web:c7714b5c625ed117d285f5"
+    
+  },
   /* Example:
   firebase: {
     apiKey: "AIza...",
@@ -21,6 +29,7 @@ window.SPLIT_CONFIG = {
     storageBucket: "your-project.appspot.com",
     messagingSenderId: "1234567890",
     appId: "1:1234567890:web:abc123",
+    
   },
   */
 };
