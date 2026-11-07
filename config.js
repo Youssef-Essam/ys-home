@@ -12,7 +12,7 @@ window.SPLIT_CONFIG = {
 
   // Paste your Firebase web config here (see README, step 1).
   // While this is null the app works in LOCAL-ONLY mode (no syncing between phones).
-  firebase: firebase: {
+  firebase: {
     apiKey: "AIzaSyCAZu0vewUdwBjvxoi-EPKLyiVsRnCyBXQ",
   authDomain: "ys-home-590d6.firebaseapp.com",
   projectId: "ys-home-590d6",
