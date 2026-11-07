@@ -1,7 +1,7 @@
 // Offline support: keeps a copy of the app files so it opens with no internet.
 // Data syncing is handled separately by Firestore's own offline cache.
-const CACHE = "split-v1";
-const SHELL = ["./", "./index.html", "./config.js", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
+const CACHE = "ys-home-v2";
+const SHELL = ["./", "./index.html", "./config.js", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png", "./hero.jpg", "./full.jpg"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil((async () => {
